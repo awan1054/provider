@@ -12,7 +12,7 @@ const Navabar = () => {
       setIsLoggedIn(false)
     }
   },[])
-console.log(isLoggedIn)
+  
 const logout = ()=>{
   localStorage.removeItem("token")
 }
