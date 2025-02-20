@@ -37,6 +37,7 @@ function AddBike() {
 
     if (response.status === 201) {  
       alert("Bike added successfully");
+      window.location.href = response.data.url;
       
 
     } else {  
